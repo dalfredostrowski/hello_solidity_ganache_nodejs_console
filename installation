@@ -1,0 +1,9 @@
+
+sudo apt-get update
+curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs build-essential
+
+npm init -y
+npm install web3 solc@0.8.19	
+npm install ganache-cli
